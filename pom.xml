@@ -306,6 +306,8 @@
 				</executions>
 				<configuration>
 					<dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
+					 <failOnNoGitDirectory>false</failOnNoGitDirectory>
+
 					<prefix>git</prefix>
 					<verbose>false</verbose>
 					<generateGitPropertiesFile>true</generateGitPropertiesFile>
